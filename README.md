@@ -1,2 +1,4 @@
 # Double-DQN
 Deep Q-learning is a effective reinforcement learning algorithm, but it usually overestimate the q value which influences the performance of the algorithm. Recently, some scientists came up with a improved Deep Q-learning algorithm called Double Q-learning, which uses two neural neteork to evaluate values and predict values and this new algorithm has been shown to reduce the overestimation issue. In this project, I implemented the DQN and Double DQN algorithms, compared the performance of these two algorithms and showed that Double -learning can reduce overestimation effectively. 
+Double_DQN.py contains the code of DQN and Double DQN, if the attibute 'double_dqn' is set to be 'True', you can get a Double DQN object, otherwise, you will get a DQN object.
+run.py applies both DQN and Double DQN on the 'Pendulum-v0' example, and it will generate a plot comparing the estimated q value of Double DQN and DQN
